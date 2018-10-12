@@ -22,13 +22,12 @@ body {
   height: 1.5em;
 }
 
-/*
-::selection{
+::selection {
   background: #fbcc02;
   color: #34261d;
 }
 
-h1{ font-size: 2.4rem; margin-bottom: 1.4rem; }
+/*h1{ font-size: 2.4rem; margin-bottom: 1.4rem; }
 h2{ font-size: 1.8rem; margin-bottom: 1.4rem; }
 h3{ font-size: 1.6rem; margin-bottom: 1.4rem; }
 h4{ font-size: 1.4rem; margin-bottom: 1.4rem; }
