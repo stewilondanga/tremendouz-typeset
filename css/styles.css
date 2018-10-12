@@ -80,11 +80,13 @@ ul {
   padding-left: 2rem;
 }
 
-/*ol{ line-height: 2; list-style: circle; padding-left: 2rem; }
+ol {
+  line-height: 2;
+  list-style: circle;
+  padding-left: 2rem;
+}
 
-
-
-.post{
+/*.post{
   box-shadow: 0 0 4px rgba(251, 204, 2, 1);
   width: 800px;
   margin: 0 auto;
