@@ -62,8 +62,11 @@ p {
   margin-bottom: 1.4rem;
 }
 
-/*em{ font-style: italic; }
-blockquote{ background: rgba(251, 204, 2, .8); color: #34261d; box-shadow: 0 0 1px rgba(251, 204, 2, 1); padding: 0 15px; }
+em {
+  font-style: italic;
+}
+
+/*blockquote{ background: rgba(251, 204, 2, .8); color: #34261d; box-shadow: 0 0 1px rgba(251, 204, 2, 1); padding: 0 15px; }
 
 ul{ line-height: 2; margin-bottom: 1.4rem; list-style: disc; padding-left: 2rem; }
 ol{ line-height: 2; list-style: circle; padding-left: 2rem; }
