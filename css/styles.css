@@ -86,7 +86,7 @@ ol {
   padding-left: 2rem;
 }
 
-/*.post{
+.post {
   box-shadow: 0 0 4px rgba(251, 204, 2, 1);
   width: 800px;
   margin: 0 auto;
@@ -95,7 +95,7 @@ ol {
   border-right: 2px solid #fbcc02;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
