@@ -1,4 +1,13 @@
 body {
+  font-family: 'VT323', monospace;
+  background: linear-gradient(90deg, #34261d, #34261d), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9tGS6VFs7Yzd3h3V4NvpF1sMz2K93ZanBOBPqWuVoZLpftPHI);
+  background-blend-mode: darken;
+  color: #fbcc02;
+  text-shadow: 0 0 4px rgba(251, 204, 2, 1);
+  box-shadow: inset 0 0 10px 8px rgba(0, 0, 0, .8);
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +28,37 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+
+::selection{
+  background: #fbcc02;
+  color: #34261d;
+}
+
+h1{ font-size: 2.4rem; margin-bottom: 1.4rem; }
+h2{ font-size: 1.8rem; margin-bottom: 1.4rem; }
+h3{ font-size: 1.6rem; margin-bottom: 1.4rem; }
+h4{ font-size: 1.4rem; margin-bottom: 1.4rem; }
+h5{ font-size: 1.2rem; margin-bottom: 1rem; }
+h6{ font-size: 1rem; margin-bottom: 1rem; }
+
+p{ line-height: 1.6; margin-bottom: 1.4rem; }
+em{ font-style: italic; }
+blockquote{ background: rgba(251, 204, 2, .8); color: #34261d; box-shadow: 0 0 1px rgba(251, 204, 2, 1); padding: 0 15px; }
+
+ul{ line-height: 2; margin-bottom: 1.4rem; list-style: disc; padding-left: 2rem; }
+ol{ line-height: 2; list-style: circle; padding-left: 2rem; }
+
+
+
+.post{
+  box-shadow: 0 0 4px rgba(251, 204, 2, 1);
+  width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-left: 2px solid #fbcc02;
+  border-right: 2px solid #fbcc02;
 }
 
 .containers {
